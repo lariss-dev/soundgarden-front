@@ -92,7 +92,7 @@ const getFirstEvents = async () => {
 
     if (Array.isArray(eventsItems) && eventsItems.length > 0) {
       eventsItems.map((todoItem, index) => {
-        if(index === 3) return;
+        if(index >= 3) return;
         eventsList.appendChild(createEventCardElement(todoItem));
       });
     } else if (eventsItems) {
