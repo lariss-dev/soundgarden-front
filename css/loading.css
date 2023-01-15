@@ -1,0 +1,17 @@
+.loading {
+  display: none;
+}
+
+.loading p {
+  font-size: 18px;
+  color: #C2185B;
+}
+
+/* .loadingEvent {
+  display: none;
+} */
+
+.loadingEvent p {
+  font-size: 18px;
+  color: #C2185B;
+}
